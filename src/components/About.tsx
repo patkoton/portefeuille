@@ -6,7 +6,7 @@ import Button from "../elements/Button";
 const About = () => {
     
   return (
-    <div className="py-5 px-6 md:px-12 bg-lightGray font-roboto">
+    <div className="py-5 px-5 md:px-12 bg-lightGray font-roboto">
         <div className='flex flex-col md:flex-row md:space-x-20 py-5 md:py-10'>
             <div className='md:flex flex-col md:w-1/2'>
                 <img src={Hero} alt="profile pix" className="w-full" />

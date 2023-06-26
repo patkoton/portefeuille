@@ -1,3 +1,4 @@
+
 export const aboutContent = {  
     heading: 'I am', 
     name: 'Patience Orukotan', 
@@ -77,4 +78,38 @@ export const servicesContent = [
         description: 'Web Apps tailored to your Specific Needs.'
     }, 
 ]
+
+
+
+export const projectContent = [
+    {
+        section: 'Category',
+        activity: 'Responsive Website with ReactJS &MUI',
+        description: 'Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.',
+        link:'More Info',
+        href: ''
+    },
+    {
+        section: 'Category',
+        activity: 'Responsive Website with ReactJS &MUI',
+        description: 'Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.',
+        link:'More Info',
+        href: ''
+    },
+    {
+        section: 'Category',
+        activity: 'Responsive Website with ReactJS &MUI',
+        description: 'Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.',
+        link:'More Info',
+        href: ''
+    },
+    {
+        section: 'Category',
+        activity: 'Responsive Website with ReactJS &MUI',
+        description: 'Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.',
+        link:'More Info',
+        href: '',
+    }, 
+]
+
 

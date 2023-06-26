@@ -3,7 +3,7 @@ import { Headers } from './Headers'
 
 const Services = () => {
   return (
-    <div className='font-roboto px-5 md:px-0' id='about'>
+    <div className='font-roboto px-5 md:px-10'>
       <Headers title='Proficiency' description='What Services I provide for you.' />
       <div className='flex flex-col md:flex-row my-16'>
         {servicesContent.map((item) => {
@@ -15,7 +15,7 @@ const Services = () => {
                         </div>
                     </div>
                     <h4 className='font-bold text-base md:text-lg mt-2 md:mt-4'>{item.activity}</h4>
-                    <p className='font-normal text-base md:text-lg leading-4 mt-1'>{item.description}</p>
+                    <p className='font-normal text-sm md:text-base leading-4 mt-1'>{item.description}</p>
                 </div>
             )
         })}
