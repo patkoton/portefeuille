@@ -1,11 +1,17 @@
-import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import { lazy, Suspense } from 'react';
+import Lazy from './layout/Lazy';
 
-function App() {
+export default function App() {
+  const Home = lazy(()=> import('./pages/Home'))
+  const NotFound = lazy(()=> import('./components/NotFound'))
   return (
-    <div className="text-2xl text-center">
-      Hi
-    </div>
+    <Suspense fallback={<Lazy/>}>
+      <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/404' element={<NotFound/>}/>
+          <Route path='*' element={<NotFound/>}/>
+      </Routes>
+    </Suspense>
   );
 }
-
-export default App;
