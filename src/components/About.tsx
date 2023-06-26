@@ -13,10 +13,10 @@ const About = () => {
             </div>
             
             <div className='md:flex flex-col md:w-1/2 text-center md:text-left'>
-                <h1 className="text-blue font-bold text-xl uppercase mt-8">{aboutContent.heading}</h1>
+                <h1 className="text-blue font-bold text-xl uppercase mt-6">{aboutContent.heading}</h1>
                 <h4 className="text-black font-bold text-5xl mt-2 md:uppercase">{aboutContent.name}</h4>
                 <h6 className="text-black font-bold text-2xl md:text-3xl mt-2">{aboutContent.role}</h6>
-                <p className="text-black font-normal text-base md:text-lg leading-6 mt-12 mb-14">{aboutContent.summary}</p>
+                <p className="text-black font-normal text-base md:text-lg leading-6 mt-6 md:mt-12 mb-12">{aboutContent.summary}</p>
                 <Button children="Contact Me" />
             </div>      
         </div>

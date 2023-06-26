@@ -6,14 +6,15 @@ export const aboutContent = {
 }
 
 
-export type Imagez = {
+
+type Imagex = {
     a_img1: string
     a_img2: string
     a_img3: string
     a_img4: string
     a_img5: string
 }
-export const Image1 = ((): Imagez => ({  
+const Image1 = ((): Imagex => ({  
     a_img1: require('./assets/images/PHP.png'),
     a_img2: require('./assets/images/CSS.png'),
     a_img3: require('./assets/images/Html 5.png'),
@@ -39,4 +40,41 @@ export const aboutImage = [
     },   
 ]
 
+
+
+type Imagey = {
+    x_img1: string
+    x_img2: string
+    x_img3: string
+    x_img4: string
+}
+const Image2 = ((): Imagey => ({  
+    x_img1: require('./assets/images/Code.png'),
+    x_img2: require('./assets/images/Mobile Wallet.png'),
+    x_img3: require('./assets/images/Vector.png'),
+    x_img4: require('./assets/images/WordPress.png'),
+    }
+))();
+export const servicesContent = [
+    {
+        image: Image2.x_img1,
+        activity: 'Custom Web Applications',
+        description: 'Web Apps tailored to your Specific Needs.'
+    },
+    {
+        image: Image2.x_img2,
+        activity: 'E-commerce Applications',
+        description: 'For Small and Large Businesses and Market.'
+    },
+    {
+        image: Image2.x_img3,
+        activity: 'Content Management Platforms',
+        description: 'Blogging Platforms.'
+    },
+    {
+        image: Image2.x_img4,
+        activity: 'WordPress Applications',
+        description: 'Web Apps tailored to your Specific Needs.'
+    }, 
+]
 

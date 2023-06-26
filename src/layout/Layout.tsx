@@ -6,10 +6,9 @@ import '../App.css'
 
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'Works', href: '/work' },
-  { name: 'Contact', href: '/contact' },
+  { name: 'Works', href: '/#about' },
+  { name: 'Contact', href: '/#contact' },
 ]
-
 
 export default function Layout(props: any) {
   return (
@@ -48,7 +47,7 @@ export default function Layout(props: any) {
                         to={item.href}
                         className={({isActive}) => {
                           return 'px-1 xl:px-2 py-2 rounded-md text-base' +
-                          (isActive ? 'bg-white text-gray font-semibold' : 'text-black font-medium hover:bg-white hover:text-gray')
+                          (isActive ? 'bg-white text-black font-semibold' : 'text-gray font-medium hover:bg-white hover:text-black')
                         }}
                       >
                         {item.name}

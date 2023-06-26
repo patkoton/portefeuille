@@ -13,9 +13,9 @@ export default function Button({children, className}: ButtonProps) {
 
   function handleClick() {
     if (children === 'Contact Me') {
-      navigate('/contact', {replace: true});
+      navigate('/#contact', {replace: true});
     } else {
-      navigate('/send', {replace: true});
+      navigate('/#send', {replace: true});
     }
   }
 
