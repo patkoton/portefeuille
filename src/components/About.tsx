@@ -1,5 +1,5 @@
 import { aboutContent, aboutImage } from "../data"
-import Hero from '../assets/images/hero_pix.png'
+import Hero from '../assets/images/profile_pix.png'
 import '../App.css';
 import Button from "../elements/Button";
 
@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className="py-5 px-5 md:px-12 bg-lightGray font-roboto">
         <div className='flex flex-col md:flex-row md:space-x-20 py-5 md:py-10'>
-            <div className='md:flex flex-col md:w-1/2'>
+            <div className='md:flex flex-col md:w-1/2 -mt-10 md:-mt-20'>
                 <img src={Hero} alt="profile pix" className="w-full" />
             </div>
             
@@ -20,7 +20,7 @@ const About = () => {
                 <Button children="Contact Me" />
             </div>      
         </div>
-        <div className="flex flex-wrap md:flex-row justify-center items-center space-x-2 md:space-x-0 my-20">
+        <div className="flex flex-wrap md:flex-row justify-center items-center space-x-2 md:space-x-0 my-10 md:my-20">
             {aboutImage.map((item) => {
                 return <div className="md:flex md:w-1/5 justify-center">
                             <div className="w-24">

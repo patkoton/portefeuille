@@ -4,7 +4,7 @@ import { MdOutlinePersonOutline } from 'react-icons/md'
 
 const Testimonial = () => {
   return (
-    <div className="w-full py-20 bg-lightGray flex justify-center items-center font-roboto">
+    <div className="w-full py-16 bg-lightGray flex justify-center items-center font-roboto">
         <div className="w-full md:w-11/12 h-[300px] flex justify-center items-center bg-lightGray">
             <div className="w-full md:w-10/12 h-full bg-lightGray">
                 <Carousel

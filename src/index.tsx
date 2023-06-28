@@ -16,6 +16,6 @@ root.render(
       <BrowserRouter>
         <App />
       </BrowserRouter>
-    </ThemeProvider>
+    </ThemeProvider>  
   </React.StrictMode>
 );
