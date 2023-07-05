@@ -81,34 +81,51 @@ export const servicesContent = [
 
 
 
+type Imagez = {
+    p_img1: string
+    p_img2: string
+    p_img3: string
+    p_img4: string
+}
+const Image3 = ((): Imagez => ({  
+    p_img1: require('./assets/images/landing_page.png'),
+    p_img2: require('./assets/images/website_pix.png'),
+    p_img3: require('./assets/images/admin_dashboard.png'),
+    p_img4: require('./assets/images/blogsite_pix.png'),
+    }
+))();
 export const projectContent = [
     {
-        section: 'Category',
-        activity: 'Responsive Website with ReactJS &MUI',
+        image: Image3.p_img1,
+        section: 'Landing Page',
+        activity: 'Responsive Landing Page',
+        description: 'Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.',
+        link:'More Info',
+        href: 'https://aiki-landing-page.netlify.app/'
+    },
+    {
+        image: Image3.p_img2,
+        section: 'Website',
+        activity: 'Responsive Website with ReactJS & MUI',
+        description: 'Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.',
+        link:'More Info',
+        href: 'https://nbjvip.com/'
+    },
+    {
+        image: Image3.p_img3,
+        section: 'Admin Dashboard',
+        activity: 'Responsive Dashboard with Bootstrap5',
         description: 'Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.',
         link:'More Info',
         href: ''
     },
     {
-        section: 'Category',
-        activity: 'Responsive Website with ReactJS &MUI',
+        image: Image3.p_img4,
+        section: 'Blogsite',
+        activity: 'A Blogsite with WordPress',
         description: 'Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.',
         link:'More Info',
-        href: ''
-    },
-    {
-        section: 'Category',
-        activity: 'Responsive Website with ReactJS &MUI',
-        description: 'Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.',
-        link:'More Info',
-        href: ''
-    },
-    {
-        section: 'Category',
-        activity: 'Responsive Website with ReactJS &MUI',
-        description: 'Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.',
-        link:'More Info',
-        href: '',
+        href: 'https://dev-learningwordp.pantheonsite.io/',
     }, 
 ]
 

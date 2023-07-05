@@ -1,7 +1,13 @@
 import React, { useState } from 'react'
+import emailjs from '@emailjs/browser';
 import { Headers } from './Headers'
-import Button from '../elements/Button'
 
+type Send = {
+    serviceID: string,
+    templateID: string,
+    form: any,
+    publicID: string
+}
 
 const Contact = () => {
     const [name, setName] = useState('');
@@ -9,43 +15,86 @@ const Contact = () => {
     const [phone, setPhone] = useState('');
     const [message, setMessage] = useState('');
 
-    const showMessage= () => {
-        console.log(name);
-        console.log(email);
-        console.log(phone);
-        console.log(message);
-    };
+    const [open, setOpen] = useState(false);
 
-    function handleSubmit(e: any) {
-        e.preventDefault();
-        fetch('http://localhost:3002/send', {
-            method: "POST",
-            body: JSON.stringify(''),
-            headers: {
-              'Accept': 'application/json',
-              'Content-Type': 'application/json'
-            },
-          }).then(
-          (response) => (response.json())
-            ).then((response)=> {
-          if (response.status === 'success') {
-            alert("Message Sent.");
-            resetForm()
-          } else if(response.status === 'fail') {
-            alert("Message failed to send.")
-          }
-        })
-    }
-      function resetForm(){
-        setName('');
-        setEmail('');
-        setPhone('');
-        setMessage('');
-    }
+    // const showMessage= () => {
+    //     console.log(name);
+    //     console.log(email);
+    //     console.log(phone);
+    //     console.log(message);
+    // };
+
+    // function handleSubmit(e: any) {
+    //     e.preventDefault();
+    //     fetch('http://localhost:3002/send', {
+    //         method: "POST",
+    //         body: JSON.stringify(''),
+    //         headers: {
+    //           'Accept': 'application/json',
+    //           'Content-Type': 'application/json'
+    //         },
+    //       }).then(
+    //       (response) => (response.json())
+    //         ).then((response)=> {
+    //       if (response.status === 'success') {
+    //         alert("Message Sent.");
+    //         resetForm()
+    //       } else if(response.status === 'fail') {
+    //         alert("Message failed to send.")
+    //       }
+    //     })
+    // }
+    //   function resetForm(){
+    //     setName('');
+    //     setEmail('');
+    //     setPhone('');
+    //     setMessage('');
+    // }
+
+    
+
+    // const handleSubmit = (e: any) => {
+    //   e.preventDefault(); // prevents the page from reloading when you hit “Send”
+   
+    //     emailjs.send('service_h8jaimr','template_vs8fpyr', templateParams, 'Pl2-CWjPBJYUaQXcu')
+    //     .then((response) => {
+    //     console.log('SUCCESS!', response.status, response.text);
+    //     }, (err) => {
+    //     console.log('FAILED...', err);
+    //     });
+    //     };
+
+        const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+            e.preventDefault();
+            console.log(e.currentTarget);
+        
+            emailjs.sendForm('service_h8jaimr', 'template_vs8fpyr', e.currentTarget, 'Pl2-CWjPBJYUaQXcu')
+              .then(
+                (result) => {
+                  console.log('Success');
+              }, (error) => {
+                  console.log('Failed');
+              });
+              e.currentTarget.reset()
+          };
+
+          const handleClick = () => {
+            setOpen(true);
+          };
+        
+          const handleClose = (event?: React.SyntheticEvent, reason?: string) => {
+            if (reason === "clickaway") {
+              return;
+            }
+        
+            setOpen(false);
+          };
+        
+
   return (
     <div className='font-roboto px-5 md:px-20' id='contact'>
         <Headers title='Contact Me' description='Let’s work together.' />
-        <form action="#" method="POST" onSubmit={handleSubmit} className="mx-auto mt-10 mb-10 max-w-xl sm:mt-10 py-5">
+        <form onSubmit={sendEmail} className="mx-auto mt-10 mb-10 max-w-xl sm:mt-10 py-5">
             <div className="">
                 <div>
                     <label htmlFor="name" className="block text-xs md:text-sm lg:text-lg font-normal leading-6 text-black">
@@ -117,7 +166,10 @@ const Contact = () => {
                 </div>
             </div>
             <div className="flex justify-center mt-4">
-                <Button children='Send Message'></Button>
+                {/* <Button children='Send Message'></Button> */}
+                <button type='submit' onClick={handleClick} className='w-44 h-14 bg-lightBlue cursor-pointer border-none outline-none transition-all'>
+                    <p className='font-medium font-roboto text-white + text-sm md:text-base'>Send Message</p>
+                </button>
             </div>
         </form>
     </div>

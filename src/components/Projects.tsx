@@ -14,7 +14,9 @@ const Projects = () => {
             return (
                 <div className='flex w-1/2 md:w-1/4'>
                     <div className='w-full border border-borderColor'>
-                        <div className='w-full h-40 md:h-52 bg-lightGray'></div>
+                        <div className='w-full h-40 md:h-52'>
+                          <img src={item.image} alt={item.section} className='w-full' />
+                        </div>
                         <div className='my-6 mx-4'>
                             <h3 className='font-semibold text-sm md:text-base'>{item.section}</h3>
                             <h5 className='font-bold text-base md:text-xl mt-1'>{item.activity}</h5>
