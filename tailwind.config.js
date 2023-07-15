@@ -12,6 +12,9 @@ module.exports = withMT({
       fontFamily: {
         roboto: ['"Roboto"', ...defaultTheme.fontFamily.sans]
       },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      },
     },
     colors: {
       transparent: 'transparent',

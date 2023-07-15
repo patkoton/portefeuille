@@ -106,15 +106,15 @@ export const projectContent = [
     {
         image: Image3.p_img2,
         section: 'Website',
-        activity: 'Responsive Website with ReactJS & MUI',
+        activity: 'ReactJS & MUI Website',
         description: 'Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.',
         link:'More Info',
         href: 'https://nbjvip.com/'
     },
     {
         image: Image3.p_img3,
-        section: 'Admin Dashboard',
-        activity: 'Responsive Dashboard with Bootstrap5',
+        section: 'Admin Dash.',
+        activity: 'Bootstrap5 Dashboard',
         description: 'Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.',
         link:'More Info',
         href: ''
@@ -122,7 +122,7 @@ export const projectContent = [
     {
         image: Image3.p_img4,
         section: 'Blogsite',
-        activity: 'A Blogsite with WordPress',
+        activity: 'WordPress Blogsite',
         description: 'Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.',
         link:'More Info',
         href: 'https://dev-learningwordp.pantheonsite.io/',
