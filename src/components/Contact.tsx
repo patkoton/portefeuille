@@ -1,6 +1,7 @@
-import React, { useState, useRef } from 'react'
+import { useState, useRef } from 'react'
 import emailjs from '@emailjs/browser';
 import { Headers } from './Headers'
+import Button from '../elements/Button';
 
 
 
@@ -65,23 +66,23 @@ const Contact = () => {
                     />
                     </div>
                 </div>
-                {/* <div className="">
+                <div className="">
                     <label htmlFor="phone" className="block text-xs md:text-sm lg:text-lg font-normal leading-6 text-black mt-3">
                     Phone Number
                     </label>
                     <div className="mt-2.5">
                     <input
-                        type="text"
+                        type="number"
                         name="phone"
                         onChange={(e) => {setPhone(e.target.value)}}
                         value={phone}
                         id="phone"
                         placeholder='+2348130000000'
-                        autoComplete="phone"
+                        autoComplete="tel"
                         className="block w-full bg-lightGray border-0 px-3.5 py-2 text-gray-900 shadow-sm placeholder:text-gray focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6"
                     />
                     </div>
-                </div> */}
+                </div>
                 <div className="sm:col-span-2">
                     <label htmlFor="message" className="block text-xs md:text-sm lg:text-lg font-normal leading-6 text-black mt-3">
                     Message
@@ -101,10 +102,7 @@ const Contact = () => {
                 </div>
             </div>
             <div className="flex justify-center mt-4">
-                {/* <Button children='Send Message'></Button> */}
-                <button type='submit' className='w-44 h-14 bg-lightBlue cursor-pointer border-none outline-none transition-all'>
-                    <p className='font-medium font-roboto text-white + text-sm md:text-base'>Send Message</p>
-                </button>
+                <Button children='Send Message'></Button>
             </div>
         </form>
     </div>
