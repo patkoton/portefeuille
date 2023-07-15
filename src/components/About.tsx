@@ -3,6 +3,7 @@ import Hero from '../assets/images/profile_pix.png'
 import '../App.css';
 import Button from "../elements/Button";
 import Typewriter from "typewriter-effect";
+import 'animate.css';
 
 const About = () => {
     
@@ -38,7 +39,7 @@ const About = () => {
         </div>
         <div className="flex flex-wrap md:flex-row justify-center items-center space-x-2 md:space-x-0 my-10 md:my-20">
             {aboutImage.map((item) => {
-                return <div className="md:flex md:w-1/5 justify-center">
+                return <div className="md:flex md:w-1/5 justify-center animate__animated animate__rubberBand animate__repeat-3">
                             <div className="w-24">
                                 <img src={item.image} alt=""  className='w-full'/>
                             </div>

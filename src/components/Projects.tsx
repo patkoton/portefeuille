@@ -1,9 +1,9 @@
-import React from 'react'
 import { Headers } from './Headers'
 import { projectContent } from '../data'
 import { Link } from 'react-router-dom'
 import { BsArrowRight } from 'react-icons/bs'
 import Button from '../elements/Button'
+import 'animate.css';
 
 const Projects = () => {
   return (
@@ -12,7 +12,7 @@ const Projects = () => {
       <div className='flex flex-wrap md:flex-nowrap md:flex-row md:space-x-6'>
         {projectContent.map((item) => {
             return (
-                <div className='flex w-1/2 md:w-1/4'>
+                <div className='flex w-1/2 md:w-1/4 animate__animated animate__zoomIn animate__delay-1s animate__repeat'>
                     <div className='w-full border border-borderColor'>
                         <div className='w-full h-40 md:h-52'>
                           <img src={item.image} alt={item.section} className='w-full' />

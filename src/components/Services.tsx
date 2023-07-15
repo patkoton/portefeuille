@@ -1,5 +1,6 @@
 import { servicesContent } from '../data'
 import { Headers } from './Headers'
+import 'animate.css';
 
 const Services = () => {
   return (
@@ -8,7 +9,7 @@ const Services = () => {
       <div className='flex flex-col md:flex-row my-16'>
         {servicesContent.map((item) => {
             return (
-                <div className='flex-col md:flex md:w-1/4 text-center mb-10 md:mb-0'>
+                <div className='flex-col md:flex md:w-1/4 text-center mb-10 md:mb-0 animate__animated animate__fadeIn animate__delay-2s animate__repeat-2'>
                     <div className='flex justify-center'>
                         <div className='w-12'>
                             <img src={item.image} alt="" className='w-full' />
