@@ -6,7 +6,7 @@ import Figma from '../assets/images/figma_icon.png'
 
 const Contact = () => {
   return (
-    <div className='font-normal text-white py-20'>
+    <div className='font-normal text-white py-20' id='contact'>
       <h1 className='text-lg md:text-2xl'>Contact</h1>
       <p className='hidden md:block md:text-sm mt-10 mb-5'>I'm currently looking to join a cross-functional team that values improving people's lives <br />
          through accessible design. or have a project in mind? Let's connect.
