@@ -3,7 +3,7 @@ import { lazy, Suspense, useEffect } from 'react';
 import Lazy from './layout/Lazy';
 
 export default function App() {
-  const Home = lazy(()=> import('./pages/Home'))
+  const Home = lazy(()=> import('./pages/Home2'))
   const NotFound = lazy(()=> import('./components/NotFound'))
 
   

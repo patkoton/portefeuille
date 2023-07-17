@@ -2,6 +2,7 @@ import { Fragment, useEffect } from 'react'
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { NavLink, useLocation } from 'react-router-dom'
+import logo from '../assets/images/new_logo.png'
 import '../App.css'
 
 const navigation = [
@@ -33,14 +34,14 @@ export default function Layout(props: any) {
   return (
     <>
     {/* NAVBAR */}
-    <Disclosure as="nav" className="bg-white border-b border-borderColor sticky top-0 z-10 py-5 md:py-0">
+    <Disclosure as="nav" className="bg-deepBlue sticky top-0 z-10 py-5 md:py-0">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 font-roboto">
+          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="relative flex h-6 md:h-20 items-center justify-between">
               <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray hover:bg-white hover:text-gray focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray">
+                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -50,23 +51,23 @@ export default function Layout(props: any) {
                 </Disclosure.Button>
               </div>
               <div className="flex flex-1 items-center sm:items-stretch sm:justify-start">
-                <div className="flex flex-shrink-0 items-center">
+                <div className="flex flex-shrink-0 items-center ml-2.5 md:ml-6 lg:ml-20">
                   <NavLink to='/'>
-                    <h4 className='font-bold text-lg md:text-2xl text-gray'>PatPortfolio</h4>
+                  <img className="block h-8 w-auto" src={logo} alt="AKERA" />
                   </NavLink>
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex justify-center items-center sm:static sm:inset-auto sm:ml-6 sm:pr-0">
               {/* Medium Device NavLinks */}
                 <div className="hidden sm:ml-6 sm:block md:px-5 lg:px-6 xl:px-20">
-                  <div className="flex space-x-4">
+                  <div className="flex space-x-4 md:space-x-12">
                     {navigation.map((item) => (
                       <NavLink
                         key={item.name}
                         to={item.href}
                         className={({isActive}) => {
                           return 'px-1 xl:px-2 py-2 rounded-md text-base' +
-                          (isActive ? 'bg-white text-black font-semibold' : 'text-gray font-medium hover:bg-white hover:text-black')
+                          (isActive ? 'bg-deepBlue text-white font-semibold' : 'text-white font-medium')
                         }}
                       >
                         {item.name}
@@ -87,7 +88,7 @@ export default function Layout(props: any) {
                     to={item.href}
                     className={({isActive}) => {
                         return 'block px-3 py-1 rounded-md text-base font-medium' +
-                        (isActive ? 'bg-white text-black' : 'text-gray hover:bg-white hover:text-black')
+                        (isActive ? 'bg-deepBlue text-white' : 'text-white')
                     }}
                     >
                         {item.name}
@@ -99,7 +100,7 @@ export default function Layout(props: any) {
       )}
     </Disclosure>
     <div className='bg-gray-300'>
-        <div className='max-w-7xl min-h-screen mx-auto'>
+        <div className='max-w-7xl min-h-screen mx-5 md:mx-12 lg:mx-48'>
           {props.children}
         </div>
     </div>
@@ -108,8 +109,8 @@ export default function Layout(props: any) {
 
     {/* FOOTER */}
     <footer>
-      <div className='bg-gray h-16 flex flex-wrap justify-center items-center text-roboto'>
-        <p className='text-white font-medium text-xs md:text-sm'>PatPortfolio @ 2023. All rights reserved.</p>
+      <div className='bg-deepBlue h-16 flex flex-wrap justify-center items-center text-roboto'>
+        <p className='text-white font-medium text-xs md:text-sm'>PatPortfolio@2023. All rights reserved.</p>
       </div>
     </footer>
     </>
