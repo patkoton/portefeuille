@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import GitHub from '../assets/images/github_icon.png'
 import PLink from '../assets/images/other_icon.png'
-import Website from '../assets/images/landing_page.png'
-import Dashboard from '../assets/images/admin_dashboard.png'
+import Website from '../assets/images/sahco_budget.png'
+import Dashboard from '../assets/images/sahco_careers.png'
 
 const Projects = () => {
   return (
@@ -19,12 +19,12 @@ const Projects = () => {
                     </div>
                     {/* Medium Screens */}
                     <div className='hidden md:flex items-center md:mt-7 md:space-x-5'>
-                        <Link to='https://github.com/patkoton'>
+                        <Link to='https://github.com/Sahcoplc/sahcoplc-budget-react'>
                             <div className='w-4 md:w-5'>
                                 <img src={GitHub} alt="" className='w-full' />
                             </div>
                         </Link>
-                        <Link to='/'>
+                        <Link to='https://sahcoplc.com.ng/'>
                             <div className='w-4 md:w-5'>
                                 <img src={PLink} alt="" className='w-full' />
                             </div>
@@ -72,12 +72,12 @@ const Projects = () => {
                     </div>
                     {/* Medium Screens */}
                     <div className='hidden md:flex justify-end items-center md:mt-7 md:space-x-5'>
-                        <Link to='https://github.com/patkoton'>
+                        <Link to='https://github.com/Sahcoplc/recruitment-app'>
                             <div className='w-4 md:w-5'>
                                 <img src={GitHub} alt="" className='w-full' />
                             </div>
                         </Link>
-                        <Link to='/'>
+                        <Link to='https://sahcocareers.com/'>
                             <div className='w-4 md:w-5'>
                                 <img src={PLink} alt="" className='w-full' />
                             </div>
