@@ -21,9 +21,9 @@ const Work = () => {
                                 </div>
                                 <div className='font-poppins'>
                                     <p className='text-2xl font-semibold'>SKYWAY AVIATION (SAHCO)</p>
-                                    <p className='text-xs font-medium mt-1 pe-20'>Take your client onboard seamlessly by our amazing tool of digital onboard process.</p>
-                                    <p className='bg-gradMid border border-gradOut font-medium text-xs w-10/12 p-1 rounded-md mt-2'>Hand-on using React Hooks (State Hook, Effect Hook, Ref Hook, and so on) to use state and lifecycle
-    methods inside functional components.</p>
+                                    <p className='text-xs font-medium mt-1 pe-20'></p>
+                                    <p className='bg-gradMid border border-gradOut font-medium text-xs w-10/12 p-1 rounded-md mt-2'>Experience in using HTML5 and CSS3 to build & beautify the
+layout of the webpage & using React UI libraries such as Material UI and Bootstrap in developing web more efficiently with high-quality and responsive components.</p>
                                 </div>
                             </div>
                         </div>
@@ -34,9 +34,9 @@ const Work = () => {
                                 </div>
                                 <div className='font-poppins'>
                                     <p className='text-2xl font-semibold'>NYERERE BOLANLE (NBJ)</p>
-                                    <p className='text-xs font-medium mt-1 pe-20'>Take your client onboard seamlessly by our amazing tool of digital onboard process.</p>
-                                    <p className='bg-gradMid border border-gradOut font-medium text-xs w-10/12 p-1 rounded-md mt-2'>Revamped and optimized responsive web application design of UI, and UX with HTML5, CSS3, and UI
-    libraries including Bootstrap and Material UI.</p>
+                                    <p className='text-xs font-medium mt-1 pe-20'></p>
+                                    <p className='bg-gradMid border border-gradOut font-medium text-xs w-10/12 p-1 rounded-md mt-2'>Revamped and optimized responsive website design of UI, and UX with HTML5, CSS3, UI
+            libraries including Bootstrap and Material UI & designed reusable components and major pages with a navigation bar using React.js</p>
                                 </div>
                             </div>
                         </div>
@@ -50,9 +50,9 @@ const Work = () => {
                                 </div>
                                 <div className='font-poppins'>
                                     <p className='text-2xl font-semibold'>PROVEHUB</p>
-                                    <p className='text-xs font-medium mt-1 pe-20'>Take your client onboard seamlessly by our amazing tool of digital onboard process.</p>
+                                    <p className='text-xs font-medium mt-1 pe-20'></p>
                                     <p className='bg-gradMid border border-gradOut font-medium text-xs w-10/12 p-1 rounded-md mt-2'>Utilized Bootstrap5, Tailwind CSS, and jQuery in rendering various UI mock-ups for responsive landing
-    pages and Admin Dashboards.</p>
+    pages and Admin Dashboards. Designed and structured layout using flexbox and grid.</p>
                                 </div>
                             </div>
                         </div>
@@ -63,8 +63,8 @@ const Work = () => {
                                 </div>
                                 <div className='font-poppins'>
                                     <p className='text-2xl font-semibold'>PHD TECH SOLUTIONS</p>
-                                    <p className='text-xs font-medium mt-1 pe-20'>Take your client onboard seamlessly by our amazing tool of digital onboard process.</p>
-                                    <p className='bg-gradMid border border-gradOut font-medium text-xs w-10/12 p-1 rounded-md mt-2'>Utilize Typescript and JavaScript in React.js platform to build front-end framework, Git for source control and NPM for JavaScript package management.</p>
+                                    <p className='text-xs font-medium mt-1 pe-20'></p>
+                                    <p className='bg-gradMid border border-gradOut font-medium text-xs w-10/12 p-1 rounded-md mt-2'>Utilize Typescript and JavaScript in React.js platform to build front-end framework following SCRUM. Using Git for source control and NPM for JavaScript package management.</p>
                                 </div>
                             </div>
                         </div>
@@ -117,9 +117,9 @@ const Work = () => {
                                     </div>
                                     <div className='font-poppins'>
                                         <p className='text-lg font-semibold'>SKYWAY AVIATION (SAHCO)</p>
-                                        <p className='text-xs font-medium mt-1 pe-5'>Take your client onboard seamlessly by our amazing tool of digital onboard process.</p>
-                                        <p className='bg-gradMid border border-gradOut font-medium text-xs w-11/12 p-1 rounded-md mt-2'>Hand-on using React Hooks (State Hook, Effect Hook, Ref Hook, and so on) to use state and lifecycle
-            methods inside functional components.</p>
+                                        <p className='text-xs font-medium mt-1 pe-5'></p>
+                                        <p className='bg-gradMid border border-gradOut font-medium text-xs w-11/12 p-1 rounded-md mt-2'>Experience in using HTML5 and CSS3 to build & beautify the
+layout of the webpage & using React UI libraries such as Material UI and Bootstrap in developing web more efficiently with high-quality and responsive components.</p>
                                     </div>
                                 </div>
                             </div>
@@ -132,9 +132,9 @@ const Work = () => {
                                     </div>
                                     <div className='font-poppins'>
                                         <p className='text-lg font-semibold'>NYERERE BOLANLE (NBJ)</p>
-                                        <p className='text-xs font-medium mt-1 pe-5'>Take your client onboard seamlessly by our amazing tool of digital onboard process.</p>
-                                        <p className='bg-gradMid border border-gradOut font-medium text-xs w-11/12 p-1 rounded-md mt-2'>Revamped and optimized responsive web application design of UI, and UX with HTML5, CSS3, and UI
-            libraries including Bootstrap and Material UI.</p>
+                                        <p className='text-xs font-medium mt-1 pe-5'></p>
+                                        <p className='bg-gradMid border border-gradOut font-medium text-xs w-11/12 p-1 rounded-md mt-2'>Revamped and optimized responsive website design of UI, and UX with HTML5, CSS3, UI
+            libraries including Bootstrap and Material UI & designed reusable components and major pages with a navigation bar using React.js</p>
                                     </div>
                                 </div>
                             </div>
@@ -147,9 +147,8 @@ const Work = () => {
                                     </div>
                                     <div className='font-poppins'>
                                         <p className='text-lg font-semibold'>PROVEHUB</p>
-                                        <p className='text-xs font-medium mt-1 pe-5'>Take your client onboard seamlessly by our amazing tool of digital onboard process.</p>
-                                        <p className='bg-gradMid border border-gradOut font-medium text-xs w-11/12 p-1 rounded-md mt-2'>Utilized Bootstrap5, Tailwind CSS, and jQuery in rendering various UI mock-ups for responsive landing
-            pages and Admin Dashboards.</p>
+                                        <p className='text-xs font-medium mt-1 pe-5'></p>
+                                        <p className='bg-gradMid border border-gradOut font-medium text-xs w-11/12 p-1 rounded-md mt-2'>Utilized Bootstrap5, Tailwind CSS, and jQuery in rendering various UI mock-ups for responsive landing pages and Admin Dashboards. Designed and structured layout using flexbox and grid.</p>
                                     </div>
                                 </div>
                             </div>
@@ -162,8 +161,8 @@ const Work = () => {
                                     </div>
                                     <div className='font-poppins'>
                                         <p className='text-lg font-semibold'>PHD TECH SOLUTIONS</p>
-                                        <p className='text-xs font-medium mt-1 pe-5'>Take your client onboard seamlessly by our amazing tool of digital onboard process.</p>
-                                        <p className='bg-gradMid border border-gradOut font-medium text-xs w-11/12 p-1 rounded-md mt-2'>Utilize Typescript and JavaScript in React.js platform to build front-end framework, Git for source control and NPM for JavaScript package management.</p>
+                                        <p className='text-xs font-medium mt-1 pe-5'></p>
+                                        <p className='bg-gradMid border border-gradOut font-medium text-xs w-11/12 p-1 rounded-md mt-2'>Utilize Typescript and JavaScript in React.js platform to build front-end framework following SCRUM. Using Git for source control and NPM for JavaScript package management.</p>
                                     </div>
                                 </div>
                             </div>
