@@ -14,7 +14,7 @@ const Work = () => {
                 <div className='hidden md:block'>
                     {/* FIRST MIX */}
                     <div className='flex flex-row space-x-5'>
-                        <div className='flex w-1/2 border-t-4 border-gradBorder shadow-md rounded-2xl bg-gradient-[163deg] from-grad1 via-grad2 to-grad5 mt-8'>
+                        <div className='flex w-1/2 border-t-4 border-gradBorder shadow-md rounded-2xl bg-gradient-[163deg] from-grad1 via-grad2 to-grad5 hover:bg-gradient-to-tl mt-8'>
                             <div className='flex items-center my-5'>
                                 <div className='w-[115px] h-[115px]'>
                                     <img src={Clogo} alt="" className='w-full' />
@@ -27,7 +27,7 @@ const Work = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='w-full md:flex flex-col md:w-1/2 border-t-4 border-gradBorder shadow-md rounded-2xl bg-gradient-[163deg] from-grad1 via-grad3 to-grad5 mt-8'>
+                        <div className='w-full md:flex flex-col md:w-1/2 border-t-4 border-gradBorder shadow-md rounded-2xl bg-gradient-[163deg] from-grad1 via-grad3 to-grad5 hover:bg-gradient-to-tl mt-8'>
                             <div className='flex items-center my-5'>
                                 <div className='w-[115px] h-[115px]'>
                                     <img src={Clogo} alt="" className='w-full' />
@@ -43,7 +43,7 @@ const Work = () => {
                     </div>
                     {/* SECOND MIX */}
                     <div className='flex flex-row space-x-5'>
-                        <div className='flex flex-col w-1/2 border-t-4 border-gradBorder shadow-md rounded-2xl bg-gradient-[163deg] from-grad3 via-grad2 to-grad5 mt-8'>
+                        <div className='flex flex-col w-1/2 border-t-4 border-gradBorder shadow-md rounded-2xl bg-gradient-[163deg] from-grad3 via-grad2 to-grad5 hover:bg-gradient-to-tl mt-8'>
                             <div className='flex items-center my-5'>
                                 <div className='w-[115px] h-[115px]'>
                                     <img src={Clogo} alt="" className='w-full' />
@@ -56,7 +56,7 @@ const Work = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='w-full md:flex flex-col md:w-1/2 border-t-4 border-gradBorder shadow-md rounded-2xl bg-gradient-[163deg] from-grad1 via-grad2 to-grad3 mt-8'>
+                        <div className='w-full md:flex flex-col md:w-1/2 border-t-4 border-gradBorder shadow-md rounded-2xl bg-gradient-[163deg] from-grad1 via-grad2 to-grad3 hover:bg-gradient-to-tl mt-8'>
                             <div className='flex items-center my-5'>
                                 <div className='w-[115px] h-[115px]'>
                                     <img src={Clogo} alt="" className='w-full' />
@@ -110,7 +110,7 @@ const Work = () => {
                         )}
             >
                         <div className='px-3'>
-                            <div className='w-full flex-col border-t-4 border-gradBorder shadow-md rounded-2xl bg-gradient-[163deg] from-grad1 via-grad2 to-grad5 mt-5'>
+                            <div className='w-full flex-col border-t-4 border-gradBorder shadow-md rounded-2xl bg-gradient-[163deg] from-grad1 via-grad2 to-grad5 hover:bg-gradient-to-tl mt-5'>
                                 <div className='flex items-center my-5 pb-5'>
                                     <div className='w-[100px] h-[100px]'>
                                         <img src={Clogo} alt="" className='w-full' />
@@ -125,7 +125,7 @@ const Work = () => {
                             </div>
                         </div>
                         <div className='px-3'>
-                            <div className='w-full md:flex flex-col border-t-4 border-gradBorder shadow-md rounded-2xl bg-gradient-[163deg] from-grad1 via-grad3 to-grad5 mt-5'>
+                            <div className='w-full md:flex flex-col border-t-4 border-gradBorder shadow-md rounded-2xl bg-gradient-[163deg] from-grad1 via-grad3 to-grad5 hover:bg-gradient-to-tl mt-5'>
                                 <div className='flex items-center my-5 pb-5'>
                                     <div className='w-[100px] h-[100px]'>
                                         <img src={Clogo} alt="" className='w-full' />
@@ -140,7 +140,7 @@ const Work = () => {
                             </div>
                         </div>
                         <div className='px-3'>
-                            <div className='w-full flex-col border-t-4 border-gradBorder shadow-md rounded-2xl bg-gradient-[163deg] from-grad3 via-grad2 to-grad5 mt-5'>
+                            <div className='w-full flex-col border-t-4 border-gradBorder shadow-md rounded-2xl bg-gradient-[163deg] from-grad3 via-grad2 to-grad5 hover:bg-gradient-to-tl mt-5'>
                                 <div className='flex items-center my-5 pb-5'>
                                     <div className='w-[100px] h-[100px]'>
                                         <img src={Clogo} alt="" className='w-full' />
@@ -155,7 +155,7 @@ const Work = () => {
                             </div>
                         </div>
                         <div className='px-3'>
-                            <div className='w-full flex-col border-t-4 border-gradBorder shadow-md rounded-2xl bg-gradient-[163deg] from-grad1 via-grad2 to-grad3 mt-5'>
+                            <div className='w-full flex-col border-t-4 border-gradBorder shadow-md rounded-2xl bg-gradient-[163deg] from-grad1 via-grad2 to-grad3 hover:bg-gradient-to-tl mt-5'>
                                 <div className='flex items-center my-5 pb-5'>
                                     <div className='w-[100px] h-[100px]'>
                                         <img src={Clogo} alt="" className='w-full' />
