@@ -37,11 +37,11 @@ export default function Layout(props: any) {
     <Disclosure as="nav" className="bg-deepBlue sticky top-0 z-10 py-5 md:py-0">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-5 md:mx-12 lg:mx-48">
             <div className="relative flex h-6 md:h-20 items-center justify-between">
               <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="inline-flex items-center justify-center rounded-md text-white hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -51,7 +51,7 @@ export default function Layout(props: any) {
                 </Disclosure.Button>
               </div>
               <div className="flex flex-1 items-center sm:items-stretch sm:justify-start">
-                <div className="flex flex-shrink-0 items-center ml-2.5 md:ml-6 lg:ml-20">
+                <div className="flex flex-shrink-0 items-center">
                   <NavLink to='/'>
                   <img className="block h-8 w-auto" src={logo} alt="AKERA" />
                   </NavLink>
@@ -59,7 +59,7 @@ export default function Layout(props: any) {
               </div>
               <div className="absolute inset-y-0 right-0 flex justify-center items-center sm:static sm:inset-auto sm:ml-6 sm:pr-0">
               {/* Medium Device NavLinks */}
-                <div className="hidden sm:ml-6 sm:block md:px-5 lg:px-6 xl:px-20">
+                <div className="hidden sm:ml-6 sm:block md:pl-5 lg:pl-6 xl:pl-20">
                   <div className="flex space-x-4 md:space-x-12">
                     {navigation.map((item) => (
                       <NavLink

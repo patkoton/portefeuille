@@ -27,6 +27,7 @@ module.exports = withMT({
     colors: {
       transparent: 'transparent',
       'white': '#FFF',
+      'clayWhite': '#CCD6F6',
       'black': '#21272A',
       'lightGray': '#F2F4F8',
       'gray': '#697077',
@@ -34,6 +35,7 @@ module.exports = withMT({
       'blue': '#001D6C',
       'borderColor': '#DDE1E6',
       'deepBlue': '#1A0B2E',
+      'deepBlue2': '#2B0B3A',
       'darkBlue': '#11071F',
       'active': '#7127BA',
       'gradInn': '#763CAC',
@@ -46,6 +48,9 @@ module.exports = withMT({
       'grad4': '#261045',
       'grad5': '#190634',
       'gradBorder': '#4F228D',
+      'grad6': '#693B93',
+      'grad7': 'rgba(105, 59, 147, 0.20)',
+      'grad8': 'rgba(110, 191, 244, 0.04)',
     },
   },
   plugins: [
