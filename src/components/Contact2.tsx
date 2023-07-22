@@ -26,11 +26,6 @@ const Contact = () => {
             <img src={Linkedin} alt="" className='w-full' />
           </div>
         </Link>
-        <Link to='/'>
-          <div className='w-4 md:w-5'>
-            <img src={Figma} alt="" className='w-full' />
-          </div>
-        </Link>
       </div>
     </div>
   )
