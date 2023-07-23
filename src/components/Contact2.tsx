@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import GitHub from '../assets/images/github_icon.png'
 import Linkedin from '../assets/images/linkedin_icon.png'
-import Figma from '../assets/images/figma_icon.png'
 
 const Contact = () => {
   return (
