@@ -165,11 +165,6 @@ const Projects = () => {
                     </div>
                     {/* Medium Screens for Links */}
                     <div className='hidden md:flex justify-end items-center md:mt-7 md:space-x-5'>
-                        <Link to='https://github.com/patkoton'>
-                            <div className='w-4 md:w-5'>
-                                <img src={GitHub} alt="" className='w-full' />
-                            </div>
-                        </Link>
                         <Link to='https://dev-learningwordp.pantheonsite.io/'>
                             <div className='w-4 md:w-5'>
                                 <img src={PLink} alt="" className='w-full' />
@@ -180,11 +175,6 @@ const Projects = () => {
             </div>
             {/* Small Screens for Links */}
             <div className='md:hidden flex justify-end items-center mt-4 space-x-2'>
-                <Link to='https://github.com/patkoton'>
-                    <div className='w-4 md:w-5'>
-                        <img src={GitHub} alt="" className='w-full' />
-                    </div>
-                </Link>
                 <Link to='https://dev-learningwordp.pantheonsite.io/'>
                     <div className='w-4 md:w-5'>
                         <img src={PLink} alt="" className='w-full' />
