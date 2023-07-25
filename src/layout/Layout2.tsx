@@ -53,7 +53,7 @@ export default function Layout(props: any) {
               <div className="flex flex-1 items-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <NavLink to='/'>
-                  <img className="block h-8 w-auto" src={logo} alt="AKERA" />
+                  <img className="block h-8 w-auto" src={logo} alt="PATPORTFOLIO" />
                   </NavLink>
                 </div>
               </div>
