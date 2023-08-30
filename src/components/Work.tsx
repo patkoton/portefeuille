@@ -64,7 +64,7 @@ layout of the webpage & using React UI libraries such as Material UI and Bootstr
                                 <div className='font-poppins'>
                                     <p className='text-2xl font-semibold'>PHD TECH SOLUTIONS</p>
                                     <p className='text-xs font-medium mt-1 pe-20'></p>
-                                    <p className='bg-gradMid border border-gradOut font-medium text-xs w-10/12 p-1 rounded-md mt-2'>Utilize Typescript and JavaScript in React.js platform to build front-end framework following SCRUM. Using Git for source control and NPM for JavaScript package management.</p>
+                                    <p className='bg-gradMid border border-gradOut font-medium text-xs w-10/12 p-1 rounded-md mt-2'>Utilize WordPress, Typescript and JavaScript in React.js platform to build front-end framework following SCRUM. Customize and adapt WordPress templates. Installed, maintained and troubleshooted WordPress themes.</p>
                                 </div>
                             </div>
                         </div>
