@@ -3,7 +3,7 @@ import GitHub from '../assets/images/github_icon.png'
 import PLink from '../assets/images/other_icon.png'
 import SAHCO from '../assets/images/sahco_budget.png'
 import NBJ from '../assets/images/nbjvip.png'
-import ProveHub from '../assets/images/aiki.png'
+import GetLinked from '../assets/images/getlinked.png'
 import WordPress from '../assets/images/wordpress_site.png'
 
 const Projects = () => {
@@ -108,16 +108,16 @@ const Projects = () => {
                     <h1 className='text-active font-semibold text-xs md:text-base'>Featured Project</h1>
                     <h2 className='font-semibold text-xl md:text-3xl'>Landing Page</h2>
                     <div className='mt-5 -mb-6 md:mb-0 md:-mr-16 bg-gradient-to-r from-grad7 from-0% via-grad8 via-50% to-grad8 to-70% rounded-xl rounded-b-none md:rounded-xl bg-blend-overlay backdrop-blur-2xl'>
-                        <p className='pt-2 pb-3 px-5 font-normal text-xs md:text-sm'><b>Tools used: </b>HTML, CSS, Bootstrap5</p>
+                        <p className='pt-2 pb-3 px-5 font-normal text-xs md:text-sm'>A Landing Page with a Contact and Register Page connected to a Backend Api.<br /><span><b>Tools used: </b> ReactJS, Tailwind CSS</span></p>
                     </div>
                     {/* Medium Screens for Links */}
                     <div className='hidden md:flex items-center md:mt-7 md:space-x-5'>
-                        <Link to='https://github.com/patkoton/aiki_landing_page'>
+                        <Link to='https://github.com/patkoton/get-linked'>
                             <div className='w-4 md:w-5'>
                                 <img src={GitHub} alt="" className='w-full' />
                             </div>
                         </Link>
-                        <Link to='https://aiki-landing-page.netlify.app/'>
+                        <Link to='https://getlinked-h.netlify.app/'>
                             <div className='w-4 md:w-5'>
                                 <img src={PLink} alt="" className='w-full' />
                             </div>
@@ -127,19 +127,19 @@ const Projects = () => {
                 <div className='md:flex flex-col md:w-1/2 bg-gradImage bg-no-repeat bg-contain bg-center md:mt-0 md:py-20 md:px-5'>
                     <div className='bg-deepBlue2 pl-6 md:pl-8 pt-5 rounded-xl'>
                         <div className=''>
-                            <img src={ProveHub} alt="" className='' />
+                            <img src={GetLinked} alt="" className='' />
                         </div>
                     </div>
                 </div>
             </div>
             {/* Small Screens for Links */}
             <div className='md:hidden flex items-center mt-4 space-x-2'>
-                <Link to='https://github.com/patkoton/aiki_landing_page'>
+                <Link to='https://github.com/patkoton/get-linked'>
                     <div className='w-4 md:w-5'>
                         <img src={GitHub} alt="" className='w-full' />
                     </div>
                 </Link>
-                <Link to='https://aiki-landing-page.netlify.app/'>
+                <Link to='https://getlinked-h.netlify.app/'>
                     <div className='w-4 md:w-5'>
                         <img src={PLink} alt="" className='w-full' />
                     </div>
