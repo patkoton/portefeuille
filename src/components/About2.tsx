@@ -36,7 +36,7 @@ const About = () => {
         </p>
         <p className='hidden md:block md:text-lg'>Currently, I'm a <span className='text-blue2'>Freelance</span> Software Engineer.</p>
         {/* Medium Sreens */}
-        <p className='hidden md:block text-xl mt-10 md:leading-normal'>A self-taught front-end developer, functioning in the industry for 3+ years now. <br /> I can develop responsive websites from scratch and raise them into modern <br /> user-friendly web experiences. <br /> I make meaningful and delightful digital products that create an equilibrium <br /> between user needs and business goals.</p>
+        <p className='hidden md:block text-xl mt-10 md:leading-normal'>A self-taught front-end developer, functioning in the industry for 2+ years now. <br /> I can develop responsive websites from scratch and raise them into modern <br /> user-friendly web experiences. <br /> I make meaningful and delightful digital products that create an equilibrium <br /> between user needs and business goals.</p>
         {/* Small Sreens */}
         <p className='md:hidden text-sm md:mt-10'>Currently, I'm a <span className='text-blue2'>Freelance</span> Software Engineer. A self-taught front-end developer, functioning in the industry for 3+ years now. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. I make meaningful and delightful digital products that create an equilibrium between user needs and business goals.</p>
       </div>
