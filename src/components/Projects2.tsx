@@ -4,7 +4,7 @@ import PLink from '../assets/images/other_icon.png'
 import SAHCO from '../assets/images/sahco_budget.png'
 import NBJ from '../assets/images/nbjvip.png'
 import GetLinked from '../assets/images/getlinked.png'
-import WordPress from '../assets/images/wordpress_site.png'
+import WordPress from '../assets/images/oltop.png'
 
 const Projects = () => {
   return (
@@ -165,7 +165,7 @@ const Projects = () => {
                     </div>
                     {/* Medium Screens for Links */}
                     <div className='hidden md:flex justify-end items-center md:mt-7 md:space-x-5'>
-                        <Link to='https://dev-learningwordp.pantheonsite.io/'>
+                        <Link to='https://oltopglobal.com/'>
                             <div className='w-4 md:w-5'>
                                 <img src={PLink} alt="" className='w-full' />
                             </div>
@@ -175,7 +175,7 @@ const Projects = () => {
             </div>
             {/* Small Screens for Links */}
             <div className='md:hidden flex justify-end items-center mt-4 space-x-2'>
-                <Link to='https://dev-learningwordp.pantheonsite.io/'>
+                <Link to='https://oltopglobal.com/'>
                     <div className='w-4 md:w-5'>
                         <img src={PLink} alt="" className='w-full' />
                     </div>
