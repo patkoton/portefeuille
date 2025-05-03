@@ -23,22 +23,22 @@ const About = () => {
         <p className='text-lg md:text-4xl lg:text-5xl'> 
         <Typewriter onInit={(typewriter) => {
                     typewriter
-                        .typeString("I'm a Software Engineer")
+                        .typeString("I'm a Frontend Developer")
                         .pauseFor(100)
                         .deleteAll()
                         .typeString("I'm a Web Design Tutor")
                         .pauseFor(100)
                         .deleteAll()
-                        .typeString("I'm a Software Engineer")
+                        .typeString("I'm a Frontend Developer")
                         .start();
                 }}
                 />
         </p>
-        <p className='hidden md:block md:text-lg'>Currently, I'm a <span className='text-blue2'>Freelance</span> Software Engineer.</p>
+        <p className='hidden md:block md:text-lg'>Currently, I'm a <span className='text-blue2'>Freelance</span> Frontend Developer.</p>
         {/* Medium Sreens */}
-        <p className='hidden md:block text-xl mt-10 md:leading-normal'>A self-taught front-end developer, functioning in the industry for 2+ years now. <br /> I can develop responsive websites from scratch and raise them into modern <br /> user-friendly web experiences. <br /> I make meaningful and delightful digital products that create an equilibrium <br /> between user needs and business goals.</p>
+        <p className='hidden md:block text-xl mt-10 md:leading-normal'>A self-taught frontend developer, functioning in the industry for 2+ years now. <br /> I can develop responsive websites from scratch and raise them into modern <br /> user-friendly web experiences. <br /> I make meaningful and delightful digital products that create an equilibrium <br /> between user needs and business goals.</p>
         {/* Small Sreens */}
-        <p className='md:hidden text-sm md:mt-10'>Currently, I'm a <span className='text-blue2'>Freelance</span> Software Engineer. A self-taught front-end developer, functioning in the industry for 3+ years now. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. I make meaningful and delightful digital products that create an equilibrium between user needs and business goals.</p>
+        <p className='md:hidden text-sm md:mt-10'>Currently, I'm a <span className='text-blue2'>Freelance</span> Frontend Developer. A self-taught front-end developer, functioning in the industry for 3+ years now. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. I make meaningful and delightful digital products that create an equilibrium between user needs and business goals.</p>
       </div>
     </div>
   )

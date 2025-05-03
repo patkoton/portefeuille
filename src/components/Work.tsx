@@ -23,7 +23,7 @@ const Work = () => {
                                     <p className='text-2xl font-semibold'>SKYWAY AVIATION (SAHCO)</p>
                                     <p className='text-xs font-medium mt-1 pe-20'></p>
                                     <p className='bg-gradMid border border-gradOut font-medium text-xs w-10/12 p-1 rounded-md mt-2'>Experience in using HTML5 and CSS3 to build & beautify the
-layout of the webpage & using React UI libraries such as Material UI and Bootstrap in developing web more efficiently with high-quality and responsive components.</p>
+layout of the webpage & using React UI libraries such as Material UI, and Bootstrap in developing web more efficiently with high-quality and responsive components.</p>
                                 </div>
                             </div>
                         </div>
@@ -119,7 +119,7 @@ layout of the webpage & using React UI libraries such as Material UI and Bootstr
                                         <p className='text-lg font-semibold'>SKYWAY AVIATION (SAHCO)</p>
                                         <p className='text-xs font-medium mt-1 pe-5'></p>
                                         <p className='bg-gradMid border border-gradOut font-medium text-xs w-11/12 p-1 rounded-md mt-2'>Experience in using HTML5 and CSS3 to build & beautify the
-layout of the webpage & using React UI libraries such as Material UI and Bootstrap in developing web more efficiently with high-quality and responsive components.</p>
+layout of the webpage & using React UI libraries such as Material UI, and Bootstrap in developing web more efficiently with high-quality and responsive components.</p>
                                     </div>
                                 </div>
                             </div>
